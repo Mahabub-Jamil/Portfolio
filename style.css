@@ -1,0 +1,68 @@
+:root {
+  --primarycolor: #ffffff;
+  --bodybackgroundcolor: #e7e4e4;
+  --secondarycolor: #7c9b1e;
+  --thirdcolor: #fcdc2a;
+  --boxshadow: #31313191;
+}
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+h1,
+h2,
+h3 {
+  color: var(--secondarycolor);
+}
+.card {
+  border-radius: 1.2rem;
+  padding: 1.2rem;
+  background-color: var(--primarycolor);
+  margin: 1.2rem;
+  box-shadow: 0 0.2rem 0.8rem var(--boxshadow);
+}
+/* header style */
+nav {
+}
+nav ul {
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--primarycolor);
+}
+header {
+  padding: 1.2rem;
+  text-align: center;
+  background-color: var(--secondarycolor);
+}
+/* header style */
+
+/* main style */
+main {
+  width: 80%;
+  margin: auto;
+}
+body p {
+  color: var(--secondarycolor);
+}
+body {
+  background-color: var(--bodybackgroundcolor);
+}
+/* main style */
+
+/* footer style */
+footer {
+  text-align: center;
+  background-color: var(--secondarycolor);
+}
+footer p {
+  color: var(--primarycolor);
+}
+a {
+  color: var(--primarycolor);
+  text-decoration: none;
+}
+/* footer style */
